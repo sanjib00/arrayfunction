@@ -17,4 +17,14 @@ for($x=0;$x<$clength;$x++)
 $numbers=array(3,5,1,5,44,7,8,99,1);
 sort($numbers);
 print_r ($numbers);
+
+$arrlength =count($numbers);
+echo "array length is" . $arrlength ."<br/>";
+for($x=0; $x<$arrlength;$x++)
+	{
+	echo $numbers[$x];
+	echo "<br/>";
+	}
+	
+	
 ?>
